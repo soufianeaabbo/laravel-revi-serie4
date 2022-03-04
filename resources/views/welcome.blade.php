@@ -15,6 +15,7 @@
                 @foreach ($fruits as $fruit)
                     <tr>
                         <th scope="row">{{$fruit->id}}</th>
+                        <td><a href="/show/{{$fruit->id}}">{{$fruit->name}}</a></td>
                         <td>{{$fruit->name}}</td>
                         <td>{{$fruit->quant}}</td>
                         <td>

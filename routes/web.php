@@ -29,6 +29,8 @@ Route::post('/store',[FruitController::class,'store']);
 Route::get('/create2',[LegumeController::class,'create2']);
 Route::post('/store',[LegumeController::class,'store']);
 
+// Route::get('/show/{id}'[FruitController::class,'show']);
+Route::get('/show/{id}', [FruitController::class, 'show']);
 
 
 
